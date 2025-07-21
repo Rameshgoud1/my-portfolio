@@ -36,7 +36,7 @@ This project is built with:
 To run locally:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Rameshgoud1/my-portfolio.git
 cd portfolio
 npm install
 npm run dev
