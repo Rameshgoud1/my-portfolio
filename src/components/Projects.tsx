@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ExternalLink, Github, Brain, TrendingUp, CloudRain } from 'lucide-react';
+import { ExternalLink, Github, Brain, TrendingUp, CloudRain,BriefcaseBusinessIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Projects = () => {
@@ -38,16 +38,17 @@ const Projects = () => {
       githubLink:"https://github.com/Rameshgoud1/weather-dashboard.git"
     },
      {
-      title: "Weather Dashboard",
-      description: "Predicts  weather Report for the Input location",
-      techStack: ["HTML","css","Java script","API"],
-      icon:CloudRain,
-      gradient: "from-red-500 to-orange-400",
-      neonColor: "text-orange-300",
-      image: "/weather.jpg",
-      demoLink: "https://weatherdashboard17.netlify.app/",
-      githubLink:"https://github.com/Rameshgoud1/weather-dashboard.git"
-    }
+  title: "Full Stack Job Portal",
+  description: "A job portal where users can search, apply for jobs, and employers can post and manage listings.",
+  techStack: ["React", "Spring Boot", "MongoDB", "REST API", "Java", "CSS"],
+  icon: BriefcaseBusinessIcon,
+  gradient: "from-blue-500 to-purple-500",
+  neonColor: "text-purple-300",
+  image: "/job-portal.jpg",
+  demoLink: "https://jobportal1739.netlify.app/",
+  githubLink:"https://github.com/Rameshgoud1/JobPortal.git"
+}
+
   ];
 
   return (
@@ -59,7 +60,7 @@ const Projects = () => {
           <p className="text-gray-300 mt-4 text-lg">Showcasing my latest work and innovations</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div 
               key={index}

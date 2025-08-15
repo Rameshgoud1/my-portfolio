@@ -41,10 +41,10 @@ const Hero = () => {
         
         <div className="slide-in-up" style={{animationDelay: '0.4s'}}>
           <p className="text-xl md:text-2xl text-gray-300 mb-2 font-light">
-            Aspiring Web Developer & Data Science Enthusiast
+            Aspiring Full Stack Developer & Data Science Enthusiast
           </p>
           <p className="text-lg text-cyan-400 mb-8 italic">
-            "Turning Ideas into Interactive Web Experiences"
+            "Turning Ideas into Powerful Full Stack Web Experiences"
           </p>
         </div>
 

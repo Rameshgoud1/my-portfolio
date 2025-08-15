@@ -14,7 +14,7 @@ const Skills = () => {
     {
       title: "Web Technologies",
       icon: Database,
-      skills: ["HTML", "CSS", "React"],
+      skills: ["HTML", "CSS", "React","Spring Boot"],
       gradient: "from-blue-500 to-cyan-500",
       neonColor: "text-cyan-400"
     },
